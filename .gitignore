@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/venv/
+venv/
+.venv/
+
+# Environment Variables
+.env
+backend/.env
+frontend/.env.local
+frontend/.env*.local
+
+# Next.js build output
+frontend/.next/
+frontend/out/
+.next/
+out/
+
+# Python cache & artifacts
+__pycache__/
+*/__pycache__/
+*/*/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Audio caches (keep folder, ignore mp3 files)
+backend/static/audio/*.mp3
+!backend/static/audio/.gitkeep
+
+# IDE & OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Large VRM sample models (optional, keep or ignore based on size)
+# backend/static/models/*.vrm
